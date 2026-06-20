@@ -1,0 +1,70 @@
+
+#freq
+# n=int(input())
+# l=list(map(int,input().split()))
+# freq={}
+# for i in l:
+#     if i in freq:
+#         freq[i]=freq[i]+1
+#     else:
+#         freq[i]=1
+# print(*freq.values())   
+
+#freq
+# s="banana"
+# target="a"
+# frequency=s.count(target)
+# print(frequency)
+
+# s=input("enter some text")
+# target=input("enter the target")
+# count=0
+# for i in s:
+#     if i==target:
+#         count+=1
+# print(count)        
+
+# #rotate k positions
+# n=int(input())
+# l=list(map(int,input().split()))
+# k=int(input())
+# k=k%n
+# for i in range(k):
+#     last=l[-1]
+#     for j in range(n-1,0,-1):
+#         l[j]=l[j-1]
+#     l[0]=last
+# print(*l)   
+#or
+
+# n = int(input())
+# l = list(map(int, input().split()))
+# k = int(input())
+# k = k % n
+# for i in range(k):
+#     first = l[0]
+#     for j in range(n - 1):
+#         l[j] = l[j + 1]
+#     l[n - 1] = first
+# print(*l)
+
+# reverse a list
+# n=int(input())
+# l=list(map(int,input().split()))
+# left=0
+# right=len(l)-1
+# while left<right:
+#     l[left],l[right]=l[right],l[left]
+#     left+=1
+#     right-=1
+# print(l)         
+   
+# move zeros
+# n=int(input())
+# l=list(map(int,input().split()))    
+# left=0
+# for right in range(len(l)):
+#     if l[right]!=0:
+#         l[left],l[right]=l[right],l[left] 
+#         left+=1
+# print(l)           
