@@ -15,6 +15,7 @@ else:
         if len(temp) > 0 and len(set(temp)) == 1:
             ok = True
             break
+
     if ok:
         print("YES")
     else:
