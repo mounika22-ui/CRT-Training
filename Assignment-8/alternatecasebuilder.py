@@ -5,4 +5,5 @@ for i in range(len(s)):
         result=result+s[i].upper()
     else:
         result=result+s[i].lower()
+        
 print(result)
