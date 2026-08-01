@@ -11,6 +11,7 @@ while left<right:
     if current_sum<k:
         left+=1
     else:
+        
         right-=1
 print(*closest_pair)
 k=int(input())
