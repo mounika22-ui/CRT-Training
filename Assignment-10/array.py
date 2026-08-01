@@ -8,4 +8,5 @@ for i in range(n - 1):
 if sorted_array:
     print("Sorted")
 else:
+    
     print("Not Sorted")
