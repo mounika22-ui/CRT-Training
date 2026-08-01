@@ -8,4 +8,5 @@ for num in freq:
     if freq[num] == 1:
         result.append(num)
 result.sort()
+
 print(*result)
