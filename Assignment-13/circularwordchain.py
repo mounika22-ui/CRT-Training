@@ -9,6 +9,7 @@ for i in range(n):
         valid = False
         break
     seen.add(words[i])
+    
 for i in range(n - 1):
     if words[i][-1] != words[i + 1][0]:
         valid = False
