@@ -11,6 +11,7 @@ while i<n and j<m:
     else:
         merged.append(a[j])
         j+=1
+        
 merged.extend(l[i:])
 merged.extend(a[j:])
 print(merged)
