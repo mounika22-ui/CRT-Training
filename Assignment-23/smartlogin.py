@@ -21,6 +21,7 @@ class LoginSystem:
             raise UserNotFoundError(
                 "Username not found."
             )
+            
         print("Login Successful")
 n = int(input())
 users = []
