@@ -6,5 +6,6 @@ for i in range(1, n):
     if arr[i] - min_ele > max_diff:
         max_diff = arr[i] - min_ele
     if arr[i] < min_ele:
+        
         min_ele = arr[i]
 print(max_diff)
