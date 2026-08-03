@@ -10,6 +10,7 @@ class Inventory:
     def __init__(self, products):
         self.products = products
     def purchase(self, index, quantity):
+        
         if len(self.products) == 0:
             raise EmptyInventoryError("Inventory is empty.")
         if index < 0 or index >= len(self.products):
