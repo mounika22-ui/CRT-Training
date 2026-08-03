@@ -9,4 +9,5 @@ if sorted_array:
     print("Sorted")
 else:
     
+    
     print("Not Sorted")
