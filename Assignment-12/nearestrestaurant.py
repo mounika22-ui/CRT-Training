@@ -8,4 +8,5 @@ while right - left + 1 > k:
         left += 1
     else:
         right -= 1
+        
 print(*arr[left:right + 1])
